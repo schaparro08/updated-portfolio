@@ -1,0 +1,15 @@
+#nav1 {
+    background-color: #2F5D62 !important; 
+}
+.texty {
+    color: aliceblue !important;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.name {
+    color: aliceblue !important;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 20px;
+
+}
