@@ -24,10 +24,10 @@
             </button>
             <div class="collapse navbar-collapse d-flex flex-row-reverse" id="navbarNavAltMarkup">
               <div class="navbar-nav">
-                <a class="nav-item nav-link px-4 texty" href="#">About Me</a>
-                <a class="nav-item nav-link px-4 texty" href="#">Work</a>
-                <a class="nav-item nav-link px-4 texty" href="#">Contact Me</a>
-                <a class="nav-item nav-link px-4 texty" href="#">Resume</a>
+                <a class="nav-item nav-link px-4 texty" href="#about-me">About Me</a>
+                <a class="nav-item nav-link px-4 texty" href="#my-work">Work</a>
+                <a class="nav-item nav-link px-4 texty" href="#contact-me">Contact Me</a>
+                <a class="nav-item nav-link px-4 texty" href="./resume_stephanie_chaparro.pdf">Resume</a>
               </div>
             </div>
           </nav>
@@ -36,7 +36,7 @@
         <div class="container align-items-left mt-4">
             <div class="row align-items-start lefty aboutme">
               <div class="col">
-                <h2>About Me</h2>
+                <h2 id="about-me">About Me</h2>
               </div>
               <div class="col">
                 <p> 
@@ -53,51 +53,60 @@
             </div>
         </div>
         <div class="container align-items-center mt-5 wrksection">
-            <h2> My Work</h2>
+            <h2 id="my-work"> My Work</h2>
 
-            <div class="row justify-content-center border border-primary mt-4">
+            <div class="row justify-content-center mt-4">
               <div class="col-sm-8">
-                <div class="card" style="width: 60rem;">
-                  
+                <div class="card description" style="width: 60rem;">
+                  <a href="https://josephlmurray.github.io/ThatGoodDirt/">
                     <img class="card-img-top" src="./assets/Images/screencapture-file-Users-stephaniechaparro-roldan-Documents-UCF-ThatGoodDirt-ThatGoodDirt-index-html-2022-04-17-20_05_34.png" alt="Card image cap">
+                  </a>
                     <div class="card-body">
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <p class="card-text">Project 1: That Good Dirt: The trail finding web application.</p>
                     </div>
                   </div>
               </div>
             </div>
-            <div class="row border border-primary mt-5">
+            <div class="row border mt-5">
               <div class="col-sm mx-5">
-                <div class="card" style="width: 35rem;">
+                <div class="card description" style="width: 35rem;">
+                  <a href="#"></a>
                     <img class="card-img-top" src="./assets/Images/plantimage2.webp" alt="Card image cap">
+                  </a>
                     <div class="card-body">
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <p class="card-text">Coming Soon</p>
                     </div>
                   </div>
               </div>
               <div class="col-sm border">
-                <div class="card" style="width: 35rem;">
+                <div class="card description" style="width: 35rem;">
+                  <a href="#"></a>
                     <img class="card-img-top" src="./assets/Images/plantimage2.webp" alt="Card image cap">
+                  </a>
                     <div class="card-body">
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <p class="card-text">Coming Soon</p>
                     </div>
                   </div>
               </div>
             </div>
-            <div class="row border border-primary mt-5 mb-5">
+            <div class="row border mt-5 mb-5">
                 <div class="col-sm mx-5">
-                    <div class="card" style="width: 35rem;">
+                    <div class="card description" style="width: 35rem;">
+                      <a href="https://schaparro08.github.io/work-day-scheduler/">
                         <img class="card-img-top" src="./assets/Images/screencapture-file-Users-stephaniechaparro-roldan-Documents-UCF-Homework-work-day-scheduler-index-html-2022-04-17-20_48_36.png">
+                      </a>
                         <div class="card-body">
-                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <p class="card-text">Workday Scheduler</p>
                         </div>
                       </div>
                 </div>
                 <div class="col-sm">
-                    <div class="card" style="width: 35rem;">
+                    <div class="card description" style="width: 35rem;">
+                      <a href="https://schaparro08.github.io/password-generator/">
                         <img class="card-img-top" src="./assets/Images/screencapture-schaparro08-github-io-password-generator-2022-04-17-20_52_16.png" alt="Card image cap">
+                      </a>
                         <div class="card-body">
-                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <p class="card-text">Password Generator</p>
                         </div>
                       </div>
                 </div>
@@ -114,7 +123,7 @@
 
 
 
-          <footer class="text-center text-white" style="background-color: #5E8B7E;">
+          <footer id="contact-me" class="text-center text-white" style="background-color: #5E8B7E;">
             <!-- Grid container -->
             <div class="container pt-4">
               <!-- Section: Social media -->
